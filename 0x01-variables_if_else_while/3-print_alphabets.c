@@ -1,23 +1,22 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+/**
+ * main-Entry point
+ *
+ * Return:Always 0 (Success)
+ */
 
 int main(void)
 {
-    char lowercase = 'a';
-    char uppercase = 'A';
+    char alP;
 
-    while (lowercase <= 'z')
-    {
-        putchar(lowercase);
-        lowercase++;
-    }
-
-    while (uppercase <= 'Z')
-    {
-        putchar(uppercase);
-        uppercase++;
-    }
-
+    for(alP = 'a'; alP <= 'z'; alP++)
+        putchar(alP);
+    for(alP = 'A'; alP <= 'Z'; alP++)
+	   putchar(alP);
     putchar('\n');
 
-    return 0;
+    return (0);
 }
