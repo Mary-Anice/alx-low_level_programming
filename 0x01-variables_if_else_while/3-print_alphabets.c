@@ -10,13 +10,13 @@
 
 int main(void)
 {
-    char alP;
+char alP;
 
-    for(alP = 'a'; alP <= 'z'; alP++)
-        putchar(alP);
-    for(alP = 'A'; alP <= 'Z'; alP++)
+for (alP = 'a'; alP <= 'z'; alP++)
+putchar(alP);
+for (alP = 'a'; alP <= 'z'; alP++)
 	   putchar(alP);
-    putchar('\n');
+putchar('\n');
 
-    return (0);
+return (0);
 }
