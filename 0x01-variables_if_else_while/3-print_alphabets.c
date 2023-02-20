@@ -14,7 +14,7 @@ char alP;
 
 for (alP = 'a'; alP <= 'z'; alP++)
 putchar(alP);
-for (alP = 'a'; alP <= 'z'; alP++)
+for (alP = 'A'; alP <= 'Z'; alP++)
 	   putchar(alP);
 putchar('\n');
 
