@@ -12,6 +12,7 @@ int i;
 for (i = 0; i < 10; i++)
 while (letter <= 'z')
 _putchar(letter);
-letter = 'a'; // reset letter to 'a' for next line
+letter++;
+letter = 'a'; /* reset letter to 'a' for next line */
 _putchar('\n');
-}
+{
